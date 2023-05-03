@@ -53,7 +53,7 @@ public class Fibon implements AM {
             Data data = (Data)c[i].readObject();
             System.out.println(data.array.size());
             System.out.println("Last word from subarray:");
-            System.out.println(data.array.get(data.array.size()));
+            System.out.println(data.array.get(data.array.size()-1));
             res.addAll(data.array);
         }
 
