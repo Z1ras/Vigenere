@@ -52,6 +52,7 @@ public class Fibon implements AM {
         {
             Data data = (Data)c[i].readObject();
             System.out.println(data.array.size());
+            System.out.println(data.array.get(data.array.size()));
             res.addAll(data.array);
         }
 
