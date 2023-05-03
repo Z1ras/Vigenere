@@ -13,7 +13,7 @@ out/Fib.jar: out/parcs.jar src/Fib.java src/Data.java
 	@jar cf out/Fib.jar -C src Fib.class -C src Data.class
 	@rm -f src/Fib.class src/Data.class
 
-build: out/Fibom.jar out/Fib.jar
+build: out/Fibon.jar out/Fib.jar
 
 run: build
 	@cd out && java -cp 'parcs.jar:Fibon.jar:Fib.jar' Fibon
