@@ -30,7 +30,7 @@ public class Fibon implements AM {
             }
         } catch (IOException e) {e.printStackTrace(); return;}
 
-        int k = 2;
+        int k = 6;
         point[] p = new point[k];
         channel[] c = new channel[k];
         int size = array.size();
