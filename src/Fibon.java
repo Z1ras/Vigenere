@@ -34,7 +34,7 @@ public class Fibon implements AM {
         point[] p = new point[k];
         channel[] c = new channel[k];
         int size = array.size();
-        int chunkSize = (int) Math.ceil((double) size / 20);
+        int chunkSize = (int) Math.ceil((double) size / k);
         for (int i=0; i<k; i++)
         {
             p[i] = info.createPoint();
